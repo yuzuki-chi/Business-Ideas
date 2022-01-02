@@ -1,0 +1,9 @@
+version: '3'
+services:
+    httpd:
+      image: 'php:7.4-apache'
+      ports: 
+        - '80:80'
+        - '443:443'
+      volumes: 
+        - './htdoc:/var/www/html'

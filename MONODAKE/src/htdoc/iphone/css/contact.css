@@ -1,0 +1,33 @@
+.select_box ul {
+    display: flex;
+    flex-direction: column;
+}
+.select_box a {
+    margin: 10px 20px;
+    height: 100%;
+    /* width: 100%; */
+
+    border: 2px solid #000;  /* 枠線 */
+    border-radius: 0.1em;   /* 角丸 */
+    padding: 0.5em;          /* 内側の余白量 */
+    background-color: snow;  /* 背景色 */
+}
+
+/** contact form **/
+.contact_box {
+    display: flex;
+    flex-direction: column;
+}
+.contact_box p {
+    text-align: left;
+    margin-bottom: -15px;
+}
+.contact_box input {
+    margin: 20px auto;
+    width: 100%;
+
+    border: 2px solid #000;  /* 枠線 */
+    border-radius: 0.1em;   /* 角丸 */
+    padding: 0.5em;          /* 内側の余白量 */
+    background-color: snow;  /* 背景色 */
+}

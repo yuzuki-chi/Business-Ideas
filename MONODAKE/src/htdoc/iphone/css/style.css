@@ -1,0 +1,129 @@
+body {
+    background-color: #F5CF46;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style: none;
+}
+h2 {
+    text-align: center;
+}
+
+.context {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    margin-top: 24vh;
+}
+.title h1 {
+    font-size: 30px;
+}
+.title h2 {
+    font-size: 14px;
+}
+
+/** header **/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    margin: 20px;
+}
+.title_sub {
+    text-align: center;
+}
+.title_sub h1 {
+    font-size: 24px;
+}
+.title_sub h2 {
+    font-size: 14px;
+}
+.head_menu {
+    font-size: 40px;
+}
+/** -- **/
+
+.login_content {
+    margin-top: 40px;
+}
+
+.input_form {
+    text-align: left;
+    margin: 10px 50px;
+}
+.input_form input {
+    border: 2px solid #000;  /* 枠線 */
+    border-radius: 0.1em;   /* 角丸 */
+    padding: 0.5em;          /* 内側の余白量 */
+    background-color: snow;  /* 背景色 */
+    min-width: 100%;             /* 横幅 */
+    height: 100%;           /* 高さ */
+    font-size: 1em;          /* 文字サイズ */
+    line-height: 1.2 ;        /* 行の高さ */
+}
+
+.submit_btn {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0;
+}
+.btn_register {
+    border: 2px solid #000;  /* 枠線 */
+    background-color: #fff;
+    color: #000;
+    margin: 15px 50px;
+    height: 50px;
+}
+.btn_login {
+    border: 2px solid #000;  /* 枠線 */
+    background-color: #000;
+    color: #fff;
+    margin: 15px 50px;
+    height: 50px;
+}
+
+/** main content **/
+main {
+    margin: 20px;
+}
+
+.select_button {
+    display: flex;
+    flex-direction: column;
+}
+.select_button_li {
+    border: 2px solid #000;  /* 枠線 */
+    border-radius: 0.5em;   /* 角丸 */
+    background-color: #fff;
+
+    margin: 10px 30px;
+    /* padding: 1em; */
+    height: 210px;
+
+    text-align: center;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.select_button_li p{
+    margin-top: -50px;
+}
+
+.main_center {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.select_button img {
+    margin-top: -10px;
+    width: 60%;
+}
